@@ -1,0 +1,91 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #000000, #434343);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../Assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.1);
+    /* vidro transparente */
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* vidro fosco */
+    box-shadow: 0 8px 32px 0 rgba(75, 124, 43, 0.37);
+    color: white;
+    width: 300px;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.input-container:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.input-container .icon {
+    color: white;
+    margin-right: 10px;
+}
+
+.input-container input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff30;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ffffff50;
+}
+
+.input-container input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
